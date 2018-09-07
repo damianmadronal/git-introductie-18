@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>pizza calculator</title>
+	
+</head>
+<body>
+	<script>
+		//Damian Madronal Munoz, opdracht: pizza calculator 
+
+		document.body.style.backgroundColor = "pink";
+	
+	var size = prompt("what size would you like? small medium or large");//vraagt welke grootte pizza je wil	
+    var amount = prompt("how many pizza's would you like to order?");//vraag hoeveel pizza's je wilt bestellen
+    
+
+    if(size == 'small'){response = amount + ' ' + size}//maakt een apart antwoord voor elke grootte 
+    if(size == 'medium'){response = amount + ' ' + size}// maakt een apart antwoord voor elke grootte
+    if(size == 'large'){response = amount + ' ' + size}//maakt een apart antwoord voor elke grootte
+
+         var single = (6.95); 
+         console.log(eval(single*amount));//berekent het aantal pizza's vermenigvuldigd met de prijs van een pizza
+
+ document.write('details from order:' + ' ' + amount + ' ' + size + ' ' + 'pizzas <br>');
+  
+ document.write('normal price for a pizza:' + ' ' + 6.95 + '<br>');
+
+ document.write('subtotal = ' + single*amount);
+
+
+    	
+
+
+
+    
+
+
+
+	</script>
+<button style="position:absolute; top:43%; left:46%; width:10%;" onclick="otherName()">Submit order</button>
+</body>
+
+
+</html>
